@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PalidroneCheckerApp/PalidroneCheckerApp.iml" filepath="$PROJECT_DIR$/PalidroneCheckerApp/PalidroneCheckerApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PalindroneCheckerApp.iml" filepath="$PROJECT_DIR$/.idea/PalindroneCheckerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PalidroneCheckerApp/palidronechecker app/palidronechecker app.iml" filepath="$PROJECT_DIR$/PalidroneCheckerApp/palidronechecker app/palidronechecker app.iml" />
     </modules>
   </component>
 </project>
