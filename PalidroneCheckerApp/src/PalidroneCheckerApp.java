@@ -9,24 +9,24 @@ public class PalidroneCheckerApp {
         System.out.print("Enter a string to check palindrome: ");
         String input = sc.nextLine();
 
-        // normalize input
+        // Convert to lowercase and remove spaces
         input = input.replaceAll("\\s+", "").toLowerCase();
 
         Deque<Character> deque = new ArrayDeque<>();
 
-        // insert characters into deque
+        // Insert characters into deque
         for (char ch : input.toCharArray()) {
             deque.addLast(ch);
         }
 
         boolean isPalindrome = true;
 
-        // compare front and rear
+        // Compare front and rear
         while (deque.size() > 1) {
-            char front = deque.removeFirst();
-            char rear = deque.removeLast();
+            char first = deque.removeFirst();
+            char last = deque.removeLast();
 
-            if (front != rear) {
+            if (first != last) {
                 isPalindrome = false;
                 break;
             }
