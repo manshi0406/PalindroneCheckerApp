@@ -14,7 +14,7 @@ public class PalidroneCheckerApp {
 
         Deque<Character> deque = new ArrayDeque<>();
 
-        // Insert characters into deque
+        // Insert characters into deque .
         for (char ch : input.toCharArray()) {
             deque.addLast(ch);
         }
